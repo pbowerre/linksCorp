@@ -1,0 +1,127 @@
+.main-content {
+  margin: 0 auto;
+  /* padding: 40px 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(230deg, #171717af, #03124dde), url("../../src/assets/banner.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90dvh;
+}
+
+.hero-text {
+  max-width: 800px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 0;
+}
+.hero-text h1{
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+}
+.hero-text p{
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.hero-buttons .open-account-btn,
+.hero-buttons .contact-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.hero-buttons .open-account-btn {
+  background: #247dee;
+  color: #fff;
+}
+
+/* Marketplace Section */
+.marketplace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100dvw; */
+  padding: 20px;
+  gap: 10px;
+}
+
+.marketplace-text {
+  max-width: 600px;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.marketplace-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.marketplace-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn-container {
+  margin-top: 20px;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #171717;
+  color: #fff;
+}
+.marketplace-image{
+    width: clamp(300px, 90%, 400px);
+    height: 100%;
+}
+.marketplace-image img {
+  max-width: 100%;
+  height: auto;
+  transition: border-radius 0.3s ease;
+  border-radius: 20px;
+}
+.marketplace-image img:hover{
+    border-radius: 0;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+  }
+
+  .marketplace {
+    flex-direction: column;
+  }
+
+  .marketplace-image {
+    margin-top: 20px;
+  }
+}

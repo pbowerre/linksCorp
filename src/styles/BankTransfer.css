@@ -1,0 +1,128 @@
+  /* Container styling */
+  .bank-transfer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 1.5em;
+  }
+  
+  .breadcrumb a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .breadcrumb span {
+    color: #ccc;
+  }
+  
+  .main-content {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .instruction {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .payment-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-info {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .invalid-price {
+    color: red;
+    text-decoration: line-through;
+  }
+  
+  .valid-price {
+    color: green;
+  }
+  
+  .amount {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .bank-details {
+    margin-bottom: 20px;
+  }
+  
+  .bank-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .account-number, .account-name {
+    font-size: 1.2em;
+  }
+  
+  .submit-proof-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .submit-proof-button:hover {
+    background-color: darkgreen;
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
+  .guarantee-badge {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .main-content, .footer {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .payment-info {
+      padding: 10px;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header-title, .breadcrumb {
+      width: 100%;
+      text-align: left;
+    }
+  }
+  

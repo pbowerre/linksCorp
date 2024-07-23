@@ -1,0 +1,62 @@
+.header {
+  background: #ffffffbe;
+  padding: 10px 0;
+  backdrop-filter: blur(30px);
+  position: sticky;
+  top: 0;
+  z-index: 99900;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #247dee;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+}
+
+.auth-links {
+  display: flex;
+  gap: 20px;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.signup-btn {
+  background: #247dee;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Existing styles here */
