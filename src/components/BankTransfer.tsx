@@ -22,13 +22,13 @@ const BankTransfer = () => {
           <div className="bank-details">
             <img src="/path-to-your-image/uba-logo.png" alt="UBA Logo" className="bank-logo"/>
             <p className="account-number">2162949544</p>
-            <p className="account-name">OLUJIMI ABDULRAHEEM SHOLARIN</p>
+            <p className="account-name">Links Corps</p>
           </div>
           <button className="submit-proof-button">SUBMIT PROOF OF PAYMENT</button>
         </div>
       </main>
       <footer className="footer">
-        <img src="/path-to-your-image/satisfaction-guarantee.png" alt="Satisfaction Guarantee" className="guarantee-badge"/>
+        <img src="../src/assets/satisfaction.png" alt="Satisfaction Guarantee" className="guarantee-badge"/>
       </footer>
     </div>
   );
