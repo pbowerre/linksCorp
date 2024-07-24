@@ -1,5 +1,5 @@
 import '../styles/BankTransfer.css';
-
+import satisfaction from '../../src/assets/satisfaction.png'
 const BankTransfer = () => {
     const phoneNumber = "+2349035935118"
     const message = "Hey Links Corp i have made a transfer and would love to share the receipt"
@@ -34,7 +34,7 @@ const BankTransfer = () => {
         </div>
       </main>
       <footer className="footer">
-        <img src="../src/assets/satisfaction.png" alt="Satisfaction Guarantee" className="guarantee-badge"/>
+        <img src={satisfaction} alt="Satisfaction Guarantee" className="guarantee-badge"/>
       </footer>
     </div>
   );

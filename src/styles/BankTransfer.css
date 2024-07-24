@@ -107,10 +107,6 @@
       padding: 10px;
     }
     
-    .payment-info {
-      /* padding: 10px; */
-    }
-  
     .header {
       flex-direction: column;
       align-items: flex-start;
