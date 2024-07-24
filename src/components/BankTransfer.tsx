@@ -1,6 +1,12 @@
 import '../styles/BankTransfer.css';
 
 const BankTransfer = () => {
+    const phoneNumber = "+2349035935118"
+    const message = "Hey Links Corp i have made a transfer and would love to share the receipt"
+    const handleClick = () => {
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.location.href = url;
+      };
   return (
     <div className="bank-transfer">
       <header className="header">
@@ -15,7 +21,7 @@ const BankTransfer = () => {
         </p>
         <div className="payment-info">
           <div className="price-info">
-            <span className="invalid-price">✘N9000</span> | 
+            <span className="invalid-price">✘N20000</span> | 
             <span className="valid-price"> PAY 1000✔</span>
           </div>
           <p className="amount">One Thousand Naira Only.</p>
@@ -24,7 +30,7 @@ const BankTransfer = () => {
             <p className="account-number">2162949544</p>
             <p className="account-name">Links Corps</p>
           </div>
-          <button className="submit-proof-button">SUBMIT PROOF OF PAYMENT</button>
+          <button className="submit-proof-button" onClick={handleClick}>SUBMIT PROOF OF PAYMENT</button>
         </div>
       </main>
       <footer className="footer">

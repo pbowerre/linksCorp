@@ -3,6 +3,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import ThreeCards from './ThreeCards';
+import { Link } from 'react-router-dom';
 
 function MainContent() {
     useEffect(() =>{
@@ -15,7 +16,7 @@ function MainContent() {
           <h1>Buy or Sell Foreign Currency & Transfer Money</h1>
           <p>The smartest, safest, and most economical way of carrying eXcur.</p>
           <div className="hero-buttons">
-            <button className="open-account-btn">Join Now</button>
+            <button className="open-account-btn"><Link to={"/banktransfer"}>Join Now</Link></button>
           </div>
         </div>
       </section>

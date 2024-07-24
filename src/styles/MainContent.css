@@ -1,6 +1,5 @@
 .main-content {
   margin: 0 auto;
-  /* padding: 40px 20px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +18,7 @@
 }
 
 .hero-text {
-  max-width: 800px;
+  max-width: 600px;
   text-align: left;
   display: flex;
   flex-direction: column;

@@ -6,11 +6,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
   font-style: normal;
   box-sizing: border-box;
-}
-
-.App {
-  text-align: center;
 }

@@ -1,25 +1,21 @@
 .header {
-  background: #ffffffbe;
+  background: #ffffff;
   padding: 10px 0;
   backdrop-filter: blur(30px);
   position: sticky;
   top: 0;
-  z-index: 99900;
+  z-index: 99999;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
+.logo{
+  font-size: 2rem;
 }
 
 .nav-links {
