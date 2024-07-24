@@ -51,6 +51,10 @@
   background: #247dee;
   color: #fff;
 }
+.Linkers{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Marketplace Section */
 .marketplace {
@@ -94,7 +98,7 @@
   color: #fff;
 }
 .marketplace-image{
-    width: clamp(300px, 90%, 400px);
+    width: 300px;
     height: 100%;
 }
 .marketplace-image img {
