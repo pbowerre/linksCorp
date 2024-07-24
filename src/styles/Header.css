@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  gap: 70px;
   /* padding: 0 20px; */
 }
 .logo{
@@ -28,7 +29,7 @@
   display: inline;
 }
 
-.nav-links a {
+.nav-links .Linkers {
   text-decoration: none;
   color: #fff;
   background-color: #247dee;
