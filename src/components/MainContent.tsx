@@ -15,7 +15,7 @@ function MainContent() {
       <section className="hero">
         <div className="hero-text" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <h1>Buy or Sell Foreign Currency & Transfer Money</h1>
-          <p>The smartest, safest, and most economical way of carrying eXcur.</p>
+          <p>The Easiest way to make Money online is through Forex and Crytpo Trading in LinksCorp.</p>
           <div className="hero-buttons">
             <button className="open-account-btn">
                 <Link to={"/banktransfer"} className='Linkers'>Join Now</Link>
