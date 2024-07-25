@@ -1,4 +1,5 @@
 import '../styles/Owner.css'
+
 const Owner = () => {
   return (
     <div className='ownerWrap'>
