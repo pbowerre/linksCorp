@@ -27,8 +27,8 @@ const BankTransfer = () => {
           <p className="amount">One Thousand Naira Only.</p>
           <div className="bank-details">
             <img src="/path-to-your-image/uba-logo.png" alt="UBA Logo" className="bank-logo"/>
-            <p className="account-number">2162949544</p>
-            <p className="account-name">Links Corps</p>
+            <p className="account-number">9035935118</p>
+            <p className="account-name">Damien Adikea</p>
           </div>
           <button className="submit-proof-button" onClick={handleClick}>SUBMIT PROOF OF PAYMENT</button>
         </div>
