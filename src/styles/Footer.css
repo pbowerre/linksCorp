@@ -1,0 +1,32 @@
+.footer{
+    background: #171717;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footerText h2{
+    color: #fff;
+}
+.footer .footerText h2 sup{
+    color: #333;
+    font-size: 12px;
+}
+.footer ul{
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    gap: 30px;
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

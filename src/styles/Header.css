@@ -7,18 +7,13 @@
   z-index: 99999;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  gap: 70px;
-  /* padding: 0 20px; */
-}
 .logo{
   font-size: 2rem;
 }
-
+.logo sup{
+  font-size: 12px;
+  color: #171717;
+}
 .nav-links {
   list-style: none;
   display: flex;
