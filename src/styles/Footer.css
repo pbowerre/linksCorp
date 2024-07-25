@@ -1,12 +1,12 @@
 .footer{
-    background: #171717;
-    padding: 15px 10px;
+    background: #fff;
+    padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .footer .footerText h2{
-    color: #fff;
+    color: #171717;
 }
 .footer .footerText h2 sup{
     color: #333;
