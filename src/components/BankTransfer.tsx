@@ -26,7 +26,7 @@ const BankTransfer = () => {
           </div>
           <p className="amount">One Thousand Naira Only.</p>
           <div className="bank-details">
-            <img src="/path-to-your-image/uba-logo.png" alt="UBA Logo" className="bank-logo"/>
+            <img src="../src/assets/Moniepointlogo.png" alt="UBA Logo" className="bank-logo"/>
             <p className="account-number">9035935118</p>
             <p className="account-name">Damien Adikea</p>
           </div>
