@@ -11,7 +11,7 @@ function ThreeCards() {
         <div className="three-cards-container">
             <div className="card" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <h3>Innovation</h3>
-                <p>At LinksCorp, innovation is at the heart of everything we do. Each month, we introduce new features, refine our techniques, and discover cutting-edge solutions to adapt to evolving market conditions. Our teams of top-notch professionals are dedicated to pushing the boundaries of what's possible, ensuring we stay ahead in delivering exceptional value and groundbreaking advancements for our clients.</p>
+                <p>At LinX Corp, innovation is at the heart of everything we do. Each month, we introduce new features, refine our techniques, and discover cutting-edge solutions to adapt to evolving market conditions. Our teams of top-notch professionals are dedicated to pushing the boundaries of what's possible, ensuring we stay ahead in delivering exceptional value and groundbreaking advancements for our clients.</p>
             </div>
             <div className="card" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
                 <h3>Global Activity</h3>
