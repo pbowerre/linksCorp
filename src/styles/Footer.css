@@ -2,7 +2,7 @@
     background: #fff;
     padding: 0 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer .footerText h2{
     color: #171717;
