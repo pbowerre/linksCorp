@@ -1,10 +1,13 @@
 .header {
-  background: #ffffff92;
-  padding: 10px 0;
+  background: #333;
+  color: #fff;
+  padding: 10px 15px;
   backdrop-filter: blur(30px);
   position: sticky;
   top: 0;
   z-index: 99999;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo{
@@ -15,14 +18,9 @@
   color: #171717;
 }
 .nav-links {
-  list-style: none;
   display: flex;
-  gap: 20px;
 }
 
-.nav-links li {
-  display: inline;
-}
 
 .nav-links .Linkers {
   text-decoration: none;
@@ -31,24 +29,5 @@
   padding: 10px 20px;
   border-radius: 20px;
   font-size: 1.1rem;
-}
-
-.auth-links {
-  display: flex;
-  gap: 20px;
-}
-
-.auth-links a {
-  text-decoration: none;
-  color: #333;
-}
-
-.signup-btn {
-  background: #247dee;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 /* Existing styles here */

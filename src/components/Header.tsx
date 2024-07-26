@@ -3,12 +3,12 @@ import '../styles/Header.css';
 
 function Header() {
   return (
-    <header className="header">
-        <div className="logo">LinksCorp <sup>Trading Firm</sup></div>
-        <ul className="nav-links">
-          <li><Link to={"/banktransfer"} className='Linkers'>Join Now</Link></li>
-        </ul>
-    </header>
+    <div className="header">
+        <div className="logo">LinksCorp <sup>FinTech</sup></div>
+        <div className="nav-links">
+          <Link to={"/banktransfer"} className='Linkers'>Join us Now</Link>
+        </div>
+    </div>
   );
 }
 

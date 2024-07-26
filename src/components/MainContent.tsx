@@ -11,14 +11,14 @@ function MainContent() {
         AOS.init();
     }, [])
   return (
-    <main className="main-content">
+    <>
       <section className="hero">
         <div className="hero-text" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-          <h1>Buy or Sell Foreign Currency & Transfer Money</h1>
-          <p>The Easiest way to make Money online is through Forex and Crytpo Trading in LinksCorp.</p>
+          <h1>We are Fintech {"(finance technology)"} that what we do </h1>
+          <p>Unlock your potential with our comprehensive online training. Gain the skills and knowledge to excel in your field with our flexible, engaging, and effective program. Start your journey to success today!</p>
           <div className="hero-buttons">
             <button className="open-account-btn">
-                <Link to={"/banktransfer"} className='Linkers'>Join Now</Link>
+                <Link to={"/banktransfer"} className='Linkers'>Join us Now</Link>
                 </button>
           </div>
         </div>
@@ -26,22 +26,22 @@ function MainContent() {
 
       <section className="marketplace">
         <div className="marketplace-text" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-          <h2>The World's First and Largest Online Currency Exchange Marketplace</h2>
-          <p>eXcur.com USA is the first e-commerce initiative in the retail foreign exchange and international money transfer space. We offer our customers a full suite of forex products consisting of currency notes, prepaid travel cards, traveler’s cheques, demand drafts, and wire transfers in an inexpensive and convenient way.</p>
-          <p>Personal Travel, Business Travel, Education, Emigration, Employment, Medical, and Maintenance of close relatives staying abroad.</p>
+          <h2>The world's First and Fastest Growing Financial Community</h2>
+          <p>LinX Corps. we specialize in empowering individuals to achieve financial freedom through comprehensive training programs. Our expert courses cover a wide range of financial topics, equipping our clients with the knowledge and skills needed to make informed financial decisions, optimize their investments, and secure their financial future.</p>
+          <p>We are dedicated to helping our clients progress towards their financial goals with confidence and expertise.</p>
           <div className="learn-more-btn-container">
-            <button className="learn-more-btn">Learn More</button>
+            {/* <button className="learn-more-btn">Learn More</button> */}
           </div>
         </div>
         <div className="marketplace-image" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-          <img src="../src/assets/about.jpg" alt="Marketplace" />
+          <img src="https://www.forextraders.com/wp-content/uploads/2020/07/USD-dips-downwards-but-GBP-is-on-the-rise.jpg" alt="Marketplace" />
         </div>
       </section>
       
       <section className='three-cards'>
         <ThreeCards/>
       </section>
-    </main>
+    </>
   );
 }
 

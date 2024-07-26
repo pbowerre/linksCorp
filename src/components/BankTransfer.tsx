@@ -9,7 +9,7 @@ const BankTransfer = () => {
       };
   return (
     <div className="bank-transfer">
-      <header className="header">
+      <header className="headers">
         <div className="header-title">Bank Transfer</div>
         <div className="breadcrumb">
           <a href="/">Home</a> &gt; <span>Bank Transfer</span>

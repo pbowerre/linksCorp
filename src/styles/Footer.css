@@ -2,8 +2,9 @@
     background: #fff;
     padding: 0 30px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
+    flex-direction: column;
 }
 .footer .footerText h2{
     color: #171717;
