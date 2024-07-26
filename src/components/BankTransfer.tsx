@@ -15,7 +15,7 @@ const BankTransfer = () => {
           <a href="/">Home</a> &gt; <span>Bank Transfer</span>
         </div>
       </header>
-      <main className="main-content">
+      <div className="main-content">
         <p className="instruction">
           MAKE A ONE TIME PAYMENT OF N1000 AND SUBMIT YOUR SCREENSHOT PROOF, USING THE BUTTON BELOW...
         </p>
@@ -26,14 +26,14 @@ const BankTransfer = () => {
           </div>
           <p className="amount">One Thousand Naira Only.</p>
           <div className="bank-details">
-            <img src="../src/assets/Moniepointlogo.png" alt="MoniePoint Logo" className="bank-logo"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Moniepointlogo.png" alt="MoniePoint Logo" className="bank-logo"/>
             <p className="account-number">9035935118</p>
             <p className="account-name">Damien Adikea</p>
           </div>
           <button className="submit-proof-button" onClick={handleClick}>SUBMIT PROOF OF PAYMENT</button>
         </div>
-      </main>
-      <footer className="footer">
+      </div>
+      <footer className="footers">
         <img src={satisfaction} alt="Satisfaction Guarantee" className="guarantee-badge"/>
       </footer>
     </div>

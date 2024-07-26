@@ -1,8 +1,5 @@
   /* Container styling */
   .bank-transfer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: #333;
 }
 
@@ -13,6 +10,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  @media screen and (max-width: 500px) {
+    .headers{
+      flex-direction: column;
+    }
   }
   
   .header-title {
@@ -33,7 +35,7 @@
   }
   
   .instruction {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 20px;
   }
   
@@ -68,7 +70,7 @@
   }
   
   .bank-logo {
-    width: 400px;
+    width: clamp(2vw, 70%, 250px);
     height: auto;
     margin-bottom: 10px;
   }
@@ -84,25 +86,28 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   
   .submit-proof-button:hover {
     background-color: darkgreen;
   }
   
-  .footer {
+  .footers {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .guarantee-badge {
-    width: 100px;
+    width: clamp(2vw, 70%, 250px);
     height: auto;
   }
   
   /* Responsive styling */
   @media (max-width: 768px) {
-    .main-content, .footer {
+    .main-content, .footers {
       padding: 10px;
     }
   
