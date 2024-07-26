@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import ThreeCards from './ThreeCards';
 import { Link } from 'react-router-dom';
+import Typewriter from './Typewriter';
 
 function MainContent() {
     useEffect(() =>{
@@ -15,7 +16,8 @@ function MainContent() {
       <section className="hero">
         <div className="hero-text" data-aos="zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
           <h1>Fastest growing Financial Technology {"(FinTech)"} Community in Nigeria.</h1>
-          <p style={{fontSize: 19}}>Trade all digital assets with LinX Excahange eg. USDT, BTC, USDC, etc </p>
+          <p style={{fontSize: 19}}>Trade all digital assets with LinX Excahange</p>
+             <Typewriter text="eg. USDT BTC USDC etc"/>
           <p>Unlock your potential with our comprehensive online training. Gain the skills and knowledge to excel in your field with our flexible, engaging, and effective program. Start your journey to success today!</p>
           <div className="hero-buttons">
             <button className="open-account-btn">

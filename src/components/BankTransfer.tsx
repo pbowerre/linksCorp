@@ -2,7 +2,7 @@ import '../styles/BankTransfer.css';
 import satisfaction from '../../src/assets/satisfaction.png'
 const BankTransfer = () => {
     const phoneNumber = "+2349035935118"
-    const message = "Hey Links Corp i have made a transfer and would love to share the receipt"
+    const message = "Hey LinX Corp i have made a transfer and would love to share the receipt"
     const handleClick = () => {
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.location.href = url;
