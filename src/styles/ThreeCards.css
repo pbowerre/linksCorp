@@ -1,10 +1,8 @@
 .three-cards-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 4rem;
     gap: 20px;
-    flex-wrap: wrap;
     background:linear-gradient(230deg, #171717af, #03124dde), url("../../src/assets/nice.jpg");
 }
 
@@ -34,13 +32,11 @@
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 900px) {
     .three-cards-container {
-        flex-direction: row;
         justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .card {
-        margin: 1rem;
-    }
 }

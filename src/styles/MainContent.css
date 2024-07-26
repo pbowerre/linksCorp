@@ -56,15 +56,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
   gap: 10px;
 }
 
 .marketplace-text {
   text-align: left;
-  padding: 10px;
   display: flex;
   flex-direction: column;
+  width: fit-content;
 
 }
 
@@ -91,7 +91,7 @@
   color: #fff;
 }
 .marketplace-image{
-    width: fit-content;
+    width:70%;
     height: 100%;
 }
 .marketplace-image img {
