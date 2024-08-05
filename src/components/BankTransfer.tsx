@@ -1,7 +1,7 @@
 import '../styles/BankTransfer.css';
 import satisfaction from '../../src/assets/satisfaction.png'
 const BankTransfer = () => {
-    const phoneNumber = "+2349035935118"
+    const phoneNumber = "+639925931734"
     const message = "Hey LinX Corp i have made a transfer and would love to share the receipt"
     const handleClick = () => {
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -25,10 +25,11 @@ const BankTransfer = () => {
             <span className="valid-price"> PAY 1000✔</span>
           </div>
           <p className="amount">One Thousand Naira Only.</p>
+          <p className="amount">Expires in One Week.</p>
           <div className="bank-details">
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Moniepointlogo.png" alt="MoniePoint Logo" className="bank-logo"/>
-            <p className="account-number">9035935118</p>
-            <p className="account-name">Damien Adikea</p>
+            <p className="account-number">+639925931734</p>
+            <p className="account-name">S&B Holdings</p>
           </div>
           <button className="submit-proof-button" onClick={handleClick}>SUBMIT PROOF OF PAYMENT</button>
         </div>
